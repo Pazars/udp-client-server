@@ -1,0 +1,10 @@
+Izpildes termiņš - 27.10.2022
+
+Uzrakstīt programmu (klients - serveris), kura pārsūta failu, izmantojot UDP protokolu (negarantē drošu un secīgu datu pārraidi).
+Uzdevuma risinājums var būt kā 1 programma ar parametriem, kura nosaka vai programmu palaist kā serveri vai kā klientu, vai arī 2 programmas (klients un serveris).
+Jābūt/jāizmanto:
+1. E-poll (https://man7.org/linux/man-pages/man7/epoll.7.html)
+2. E-poll nepieciešams izmantot klienta un servera pusē
+3. Pārsūtītam failam jāsaglabā oriģinālo nosaukumu
+4. Klientam jāuzrāda sūtīšanas ātrumu
+5. Serverim jāspēj apkalpot vairākus klientus vienlaicīgi
