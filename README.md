@@ -31,7 +31,7 @@ Received files are stored in `./receive` directory
 
 Client
 
-    ./server.out <PORT> <FILE_NAME>
+    ./client.out <PORT> <FILE_NAME>
 for individual file, or
 
     bash run_multiple_clients.sh
